@@ -13,4 +13,4 @@
   <li> 📂 Biblioteca de livros</li>
 </ul>
 
-<img src="Downloads/Ebook.png" />
+<img src="Ebook.png" />
