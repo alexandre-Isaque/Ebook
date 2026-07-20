@@ -2,7 +2,6 @@ package dominio.components.panels.painel_main;
 import java.awt.Color;
 import java.awt.Dimension;
 
-import javax.swing.JButton;
 import javax.swing.JPanel;
 
 public class painel_main extends JPanel {

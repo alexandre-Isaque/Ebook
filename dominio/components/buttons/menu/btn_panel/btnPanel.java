@@ -14,6 +14,7 @@ public class btnPanel extends JPanel
         setVisible(true);
         setPreferredSize(new Dimension(100, 100));
         setLayout(new FlowLayout(FlowLayout.LEFT));
+        setBackground(new Color(55, 86, 33));
 
         // add components
         add(btn);

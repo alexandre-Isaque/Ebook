@@ -1,5 +1,6 @@
 package dominio.components.buttons.menu.btn;
 
+import java.awt.Color;
 import java.awt.Dimension;
 
 import javax.swing.Icon;
@@ -19,6 +20,8 @@ public class iconMenu extends JButton {
         setIcon(icon);
         setSize(new Dimension(WIDTH, HEIGHT));
         setVisible(true);
-        setText("MENU");
+        setText("Menu");
+        setBackground(new Color(55, 86, 33));
+        setForeground(new Color(255, 255, 255));
     }
 }

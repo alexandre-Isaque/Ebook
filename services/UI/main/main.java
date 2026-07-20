@@ -4,10 +4,16 @@ import javax.swing.JPanel;
 
 import dominio.components.buttons.menu.btn.iconMenu;
 import dominio.components.buttons.menu.btn_panel.btnPanel;
+import dominio.components.buttons.menuRight.menu;
 import dominio.components.panels.painel_main.painel_main;
 import dominio.components.panels.top_bar.bar;
+import dominio.components.text.titleName.panelTitle;
+import dominio.components.text.titleName.title;
 import dominio.components.windows.window;
 
+/**
+ * main
+ */
 public class main {
     // Components
     // window
@@ -18,10 +24,14 @@ public class main {
     private bar topBar = new bar();
     // icon Menu
     private iconMenu menu = new iconMenu();
-    private btnPanel BtnPanel = new btnPanel(menu);
+    // title
+    private title textTitleTopBar = new title();
+    // menu right
+    private menu menuRight = new menu();
 
     public main(){
         main_app();
+        topBarComponents();
     }
 
     // window init
@@ -37,8 +47,8 @@ public class main {
 
     private void topBarComponents(){
         // all painels of top bar
-        JPanel[] panels = {BtnPanel};
-
-        topBar.addComponents(panels);
+        topBar.add(menu);
+        topBar.add(textTitleTopBar);
+        topBar.add(menuRight);
     }
 }
