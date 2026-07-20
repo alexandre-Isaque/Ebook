@@ -16,3 +16,9 @@
 <h3>Imagem do aplicativo</h3>
 
 <img src="Ebook.png" />
+
+<p>Tecnologias utilizadas</p>
+<ul>
+  <li>Java 25</li>
+  <li>Json</li>
+</ul>
